@@ -1,5 +1,5 @@
 //
-//  LFAppDelegate.h
+//  LFViewController.h
 //  MapViewPolygonMask
 //
 //  Copyright (c) 2014 Leonardo Ascione (https://github.com/leonardfactory)
@@ -23,10 +23,9 @@
 //  THE SOFTWARE.
 //
 
+
 #import <UIKit/UIKit.h>
 
-@interface LFAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface LFMapViewController : UIViewController
 
 @end

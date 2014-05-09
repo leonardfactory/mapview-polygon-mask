@@ -14,7 +14,7 @@
 		A7928632191D765D0042BDF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7928631191D765D0042BDF4 /* main.m */; };
 		A7928636191D765D0042BDF4 /* LFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7928635191D765D0042BDF4 /* LFAppDelegate.m */; };
 		A7928639191D765D0042BDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7928637191D765D0042BDF4 /* Main.storyboard */; };
-		A792863C191D765D0042BDF4 /* LFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A792863B191D765D0042BDF4 /* LFViewController.m */; };
+		A792863C191D765D0042BDF4 /* LFMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A792863B191D765D0042BDF4 /* LFMapViewController.m */; };
 		A792863E191D765D0042BDF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A792863D191D765D0042BDF4 /* Images.xcassets */; };
 		A7928645191D765D0042BDF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7928644191D765D0042BDF4 /* XCTest.framework */; };
 		A7928646191D765D0042BDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7928625191D765D0042BDF4 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		A7928634191D765D0042BDF4 /* LFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFAppDelegate.h; sourceTree = "<group>"; };
 		A7928635191D765D0042BDF4 /* LFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAppDelegate.m; sourceTree = "<group>"; };
 		A7928638191D765D0042BDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A792863A191D765D0042BDF4 /* LFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFViewController.h; sourceTree = "<group>"; };
-		A792863B191D765D0042BDF4 /* LFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFViewController.m; sourceTree = "<group>"; };
+		A792863A191D765D0042BDF4 /* LFMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFMapViewController.h; sourceTree = "<group>"; };
+		A792863B191D765D0042BDF4 /* LFMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFMapViewController.m; sourceTree = "<group>"; };
 		A792863D191D765D0042BDF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A7928643191D765D0042BDF4 /* MapViewPolygonMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewPolygonMaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7928644191D765D0042BDF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				A7928634191D765D0042BDF4 /* LFAppDelegate.h */,
 				A7928635191D765D0042BDF4 /* LFAppDelegate.m */,
 				A7928637191D765D0042BDF4 /* Main.storyboard */,
-				A792863A191D765D0042BDF4 /* LFViewController.h */,
-				A792863B191D765D0042BDF4 /* LFViewController.m */,
+				A792863A191D765D0042BDF4 /* LFMapViewController.h */,
+				A792863B191D765D0042BDF4 /* LFMapViewController.m */,
 				A792863D191D765D0042BDF4 /* Images.xcassets */,
 				A792862C191D765D0042BDF4 /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				A7928636191D765D0042BDF4 /* LFAppDelegate.m in Sources */,
 				A7928632191D765D0042BDF4 /* main.m in Sources */,
-				A792863C191D765D0042BDF4 /* LFViewController.m in Sources */,
+				A792863C191D765D0042BDF4 /* LFMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
