@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7928626191D765D0042BDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7928625191D765D0042BDF4 /* Foundation.framework */; };
+		A7928628191D765D0042BDF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7928627191D765D0042BDF4 /* CoreGraphics.framework */; };
+		A792862A191D765D0042BDF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7928629191D765D0042BDF4 /* UIKit.framework */; };
+		A7928630191D765D0042BDF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A792862E191D765D0042BDF4 /* InfoPlist.strings */; };
+		A7928632191D765D0042BDF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7928631191D765D0042BDF4 /* main.m */; };
+		A7928636191D765D0042BDF4 /* LFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7928635191D765D0042BDF4 /* LFAppDelegate.m */; };
+		A7928639191D765D0042BDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7928637191D765D0042BDF4 /* Main.storyboard */; };
+		A792863C191D765D0042BDF4 /* LFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A792863B191D765D0042BDF4 /* LFViewController.m */; };
+		A792863E191D765D0042BDF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A792863D191D765D0042BDF4 /* Images.xcassets */; };
+		A7928645191D765D0042BDF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7928644191D765D0042BDF4 /* XCTest.framework */; };
+		A7928646191D765D0042BDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7928625191D765D0042BDF4 /* Foundation.framework */; };
+		A7928647191D765D0042BDF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7928629191D765D0042BDF4 /* UIKit.framework */; };
+		A792864F191D765D0042BDF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A792864D191D765D0042BDF4 /* InfoPlist.strings */; };
+		A7928651191D765D0042BDF4 /* MapViewPolygonMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7928650191D765D0042BDF4 /* MapViewPolygonMaskTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7928648191D765D0042BDF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A792861A191D765D0042BDF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7928621191D765D0042BDF4;
+			remoteInfo = MapViewPolygonMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7928622191D765D0042BDF4 /* MapViewPolygonMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewPolygonMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7928625191D765D0042BDF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7928627191D765D0042BDF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7928629191D765D0042BDF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A792862D191D765D0042BDF4 /* MapViewPolygonMask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewPolygonMask-Info.plist"; sourceTree = "<group>"; };
+		A792862F191D765D0042BDF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7928631191D765D0042BDF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7928633191D765D0042BDF4 /* MapViewPolygonMask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapViewPolygonMask-Prefix.pch"; sourceTree = "<group>"; };
+		A7928634191D765D0042BDF4 /* LFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFAppDelegate.h; sourceTree = "<group>"; };
+		A7928635191D765D0042BDF4 /* LFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAppDelegate.m; sourceTree = "<group>"; };
+		A7928638191D765D0042BDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A792863A191D765D0042BDF4 /* LFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFViewController.h; sourceTree = "<group>"; };
+		A792863B191D765D0042BDF4 /* LFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFViewController.m; sourceTree = "<group>"; };
+		A792863D191D765D0042BDF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7928643191D765D0042BDF4 /* MapViewPolygonMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapViewPolygonMaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7928644191D765D0042BDF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A792864C191D765D0042BDF4 /* MapViewPolygonMaskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewPolygonMaskTests-Info.plist"; sourceTree = "<group>"; };
+		A792864E191D765D0042BDF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7928650191D765D0042BDF4 /* MapViewPolygonMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewPolygonMaskTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A792861F191D765D0042BDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7928628191D765D0042BDF4 /* CoreGraphics.framework in Frameworks */,
+				A792862A191D765D0042BDF4 /* UIKit.framework in Frameworks */,
+				A7928626191D765D0042BDF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7928640191D765D0042BDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7928645191D765D0042BDF4 /* XCTest.framework in Frameworks */,
+				A7928647191D765D0042BDF4 /* UIKit.framework in Frameworks */,
+				A7928646191D765D0042BDF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7928619191D765D0042BDF4 = {
+			isa = PBXGroup;
+			children = (
+				A792862B191D765D0042BDF4 /* MapViewPolygonMask */,
+				A792864A191D765D0042BDF4 /* MapViewPolygonMaskTests */,
+				A7928624191D765D0042BDF4 /* Frameworks */,
+				A7928623191D765D0042BDF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7928623191D765D0042BDF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7928622191D765D0042BDF4 /* MapViewPolygonMask.app */,
+				A7928643191D765D0042BDF4 /* MapViewPolygonMaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7928624191D765D0042BDF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7928625191D765D0042BDF4 /* Foundation.framework */,
+				A7928627191D765D0042BDF4 /* CoreGraphics.framework */,
+				A7928629191D765D0042BDF4 /* UIKit.framework */,
+				A7928644191D765D0042BDF4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A792862B191D765D0042BDF4 /* MapViewPolygonMask */ = {
+			isa = PBXGroup;
+			children = (
+				A7928634191D765D0042BDF4 /* LFAppDelegate.h */,
+				A7928635191D765D0042BDF4 /* LFAppDelegate.m */,
+				A7928637191D765D0042BDF4 /* Main.storyboard */,
+				A792863A191D765D0042BDF4 /* LFViewController.h */,
+				A792863B191D765D0042BDF4 /* LFViewController.m */,
+				A792863D191D765D0042BDF4 /* Images.xcassets */,
+				A792862C191D765D0042BDF4 /* Supporting Files */,
+			);
+			path = MapViewPolygonMask;
+			sourceTree = "<group>";
+		};
+		A792862C191D765D0042BDF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A792862D191D765D0042BDF4 /* MapViewPolygonMask-Info.plist */,
+				A792862E191D765D0042BDF4 /* InfoPlist.strings */,
+				A7928631191D765D0042BDF4 /* main.m */,
+				A7928633191D765D0042BDF4 /* MapViewPolygonMask-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A792864A191D765D0042BDF4 /* MapViewPolygonMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7928650191D765D0042BDF4 /* MapViewPolygonMaskTests.m */,
+				A792864B191D765D0042BDF4 /* Supporting Files */,
+			);
+			path = MapViewPolygonMaskTests;
+			sourceTree = "<group>";
+		};
+		A792864B191D765D0042BDF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A792864C191D765D0042BDF4 /* MapViewPolygonMaskTests-Info.plist */,
+				A792864D191D765D0042BDF4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7928621191D765D0042BDF4 /* MapViewPolygonMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7928654191D765D0042BDF4 /* Build configuration list for PBXNativeTarget "MapViewPolygonMask" */;
+			buildPhases = (
+				A792861E191D765D0042BDF4 /* Sources */,
+				A792861F191D765D0042BDF4 /* Frameworks */,
+				A7928620191D765D0042BDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapViewPolygonMask;
+			productName = MapViewPolygonMask;
+			productReference = A7928622191D765D0042BDF4 /* MapViewPolygonMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7928642191D765D0042BDF4 /* MapViewPolygonMaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7928657191D765D0042BDF4 /* Build configuration list for PBXNativeTarget "MapViewPolygonMaskTests" */;
+			buildPhases = (
+				A792863F191D765D0042BDF4 /* Sources */,
+				A7928640191D765D0042BDF4 /* Frameworks */,
+				A7928641191D765D0042BDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7928649191D765D0042BDF4 /* PBXTargetDependency */,
+			);
+			name = MapViewPolygonMaskTests;
+			productName = MapViewPolygonMaskTests;
+			productReference = A7928643191D765D0042BDF4 /* MapViewPolygonMaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A792861A191D765D0042BDF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LeonardFactory;
+				TargetAttributes = {
+					A7928642191D765D0042BDF4 = {
+						TestTargetID = A7928621191D765D0042BDF4;
+					};
+				};
+			};
+			buildConfigurationList = A792861D191D765D0042BDF4 /* Build configuration list for PBXProject "MapViewPolygonMask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7928619191D765D0042BDF4;
+			productRefGroup = A7928623191D765D0042BDF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7928621191D765D0042BDF4 /* MapViewPolygonMask */,
+				A7928642191D765D0042BDF4 /* MapViewPolygonMaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7928620191D765D0042BDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A792863E191D765D0042BDF4 /* Images.xcassets in Resources */,
+				A7928630191D765D0042BDF4 /* InfoPlist.strings in Resources */,
+				A7928639191D765D0042BDF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7928641191D765D0042BDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A792864F191D765D0042BDF4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A792861E191D765D0042BDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7928636191D765D0042BDF4 /* LFAppDelegate.m in Sources */,
+				A7928632191D765D0042BDF4 /* main.m in Sources */,
+				A792863C191D765D0042BDF4 /* LFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A792863F191D765D0042BDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7928651191D765D0042BDF4 /* MapViewPolygonMaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7928649191D765D0042BDF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7928621191D765D0042BDF4 /* MapViewPolygonMask */;
+			targetProxy = A7928648191D765D0042BDF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A792862E191D765D0042BDF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A792862F191D765D0042BDF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7928637191D765D0042BDF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7928638191D765D0042BDF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A792864D191D765D0042BDF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A792864E191D765D0042BDF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7928652191D765D0042BDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7928653191D765D0042BDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7928655191D765D0042BDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewPolygonMask/MapViewPolygonMask-Prefix.pch";
+				INFOPLIST_FILE = "MapViewPolygonMask/MapViewPolygonMask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7928656191D765D0042BDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewPolygonMask/MapViewPolygonMask-Prefix.pch";
+				INFOPLIST_FILE = "MapViewPolygonMask/MapViewPolygonMask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7928658191D765D0042BDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapViewPolygonMask.app/MapViewPolygonMask";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewPolygonMask/MapViewPolygonMask-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MapViewPolygonMaskTests/MapViewPolygonMaskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A7928659191D765D0042BDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapViewPolygonMask.app/MapViewPolygonMask";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapViewPolygonMask/MapViewPolygonMask-Prefix.pch";
+				INFOPLIST_FILE = "MapViewPolygonMaskTests/MapViewPolygonMaskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A792861D191D765D0042BDF4 /* Build configuration list for PBXProject "MapViewPolygonMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7928652191D765D0042BDF4 /* Debug */,
+				A7928653191D765D0042BDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7928654191D765D0042BDF4 /* Build configuration list for PBXNativeTarget "MapViewPolygonMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7928655191D765D0042BDF4 /* Debug */,
+				A7928656191D765D0042BDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7928657191D765D0042BDF4 /* Build configuration list for PBXNativeTarget "MapViewPolygonMaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7928658191D765D0042BDF4 /* Debug */,
+				A7928659191D765D0042BDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A792861A191D765D0042BDF4 /* Project object */;
+}
